@@ -1,3 +1,10 @@
-h1 {
-    color:red;
+div {
+    width: 100%;
+    max-width: 200px;
+    height: 100vw;
+    background-color: rgb(255, 224, 245);
+    border: 10px solid black;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Cormorant Garamond', serif;
 }
