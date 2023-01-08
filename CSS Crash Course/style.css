@@ -1,25 +1,9 @@
-.red {
-    color: red
-}
-
-p.blue {
-    color: blue;
-}
-
-.blue {
-    color: black;
-}
-
-#title {
-    font-weight: bold;
-    color: purple;
-}
-
-#title {
-    color: blue
-}
-
-section {
-    height: 80vh;
-    border: 1px solid black;
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border: 15px solid red;
+    padding: 15px;
+    margin: 15px;
+    box-sizing: border-box
 }
