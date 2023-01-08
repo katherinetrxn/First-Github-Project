@@ -1,9 +1,25 @@
-.box {
-    width: 200px;
+body {
+    height: 200vh;
+}
+div {
     height: 200px;
-    background-color: green;
-    border: 15px solid red;
-    padding: 15px;
-    margin: 15px;
-    box-sizing: border-box
+    border: 3px solid black;
+}
+
+.red {
+    background-color: red;
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+.child {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
