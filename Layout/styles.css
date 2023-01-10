@@ -2,11 +2,17 @@
     box-sizing: border-box;
 }
 
-.container {
-    border: 4px solid lightgray;
-    padding: 24px 24px 0px 24px;
+.row {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto --24px auto;
     display: flex;
     justify-content: space-between;
+}
+
+.container {
+    border: 4px solid lightgray;
+    padding: 80px 24px 80px 24px;
 }
 
 .box {
@@ -18,6 +24,17 @@
     height: 50px;
 
 }
+
+.box-tiny {
+    width: 30%;
+    height: 50px;
+}
+
+.tiny-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
 .box-wrapper {
     width: 45%;
     padding-right: 24px;
