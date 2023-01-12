@@ -77,8 +77,11 @@ ABOUT
 
 */
 
-#about {
+#about, #discord, #contact {
     padding: 48px 0;
+}
+
+#about {
     background-color: #f8ffdc;
 }
 
@@ -92,6 +95,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 24px;
 }
 
 .about__img--wrapper {
@@ -112,3 +116,14 @@ img {
     line-height: 1.5;
     margin-bottom: 24px;
 }
+
+/*
+
+DISCORD
+
+*/
+
+#discord {
+    background-color: #cefeff;
+}
+
