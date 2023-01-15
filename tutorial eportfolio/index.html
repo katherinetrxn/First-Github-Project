@@ -17,21 +17,21 @@
       <nav>
         <div class="personal__logo">Katherine Tran</div>
         <ul class="nav__link--list">
-          <li>
+          <li class="nav__link">
             <a
               href="#languages"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
               >Languages</a
             >
           </li>
-          <li>
+          <li class="nav__link">
             <a
               href="#projects"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
               >Projects</a
             >
           </li>
-          <li>
+          <li class="nav__link">
             <a
               href="#contact"
               class="nav__link--anchor nav__link--anchor-primary"
@@ -51,11 +51,11 @@
               />
             </figure>
             <h1 class="about-me__info--title">
-              Hey! I'm <span class="text--purple">Katherine Tran</span> 👋
+              Hey! I'm <span class="text--purple">Katherine Tran</span>&nbsp;<span class="wave">👋</span>
             </h1>
             <p class="about-me__info--para">
               I'm a
-              <strong class="text--purple">frontend software engineer</strong>
+              <strong class="text--purple">full-stack software engineer</strong>
               with a strong passion for building responsive and performant web
               applications with great user experiences that positively impacts
               the world.
@@ -85,7 +85,7 @@
         </div>
       </div>
     </section>
-    <section class="languages">
+    <section id="languages">
       <div class="container">
         <div class="row">
           <h1 class="section__title">
@@ -105,72 +105,72 @@
             <div class="language">
               <figure class="language__img--wrapper">
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
+                  src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png"
                   alt=""
                   class="language__img"
                 />
               </figure>
-              <span class="language__name">HTML</span>
+              <span class="language__name">CSS</span>
             </div>
             <div class="language">
               <figure class="language__img--wrapper">
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
+                  src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png"
                   alt=""
                   class="language__img"
                 />
               </figure>
-              <span class="language__name">HTML</span>
+              <span class="language__name">JavaScript</span>
             </div>
             <div class="language">
               <figure class="language__img--wrapper">
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
+                  src="https://cdn.iconscout.com/icon/free/png-256/typescript-3521774-2945272.png"
                   alt=""
                   class="language__img"
                 />
               </figure>
-              <span class="language__name">HTML</span>
+              <span class="language__name">TypeScript</span>
             </div>
             <div class="language">
               <figure class="language__img--wrapper">
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
+                  src="https://cdn.iconscout.com/icon/free/png-256/vue-282497.png"
                   alt=""
                   class="language__img"
                 />
               </figure>
-              <span class="language__name">HTML</span>
+              <span class="language__name">Vue</span>
             </div>
             <div class="language">
               <figure class="language__img--wrapper">
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
+                  src="https://cdn.iconscout.com/icon/free/png-256/nuxt-dot-js-3628959-3030184.png"
                   alt=""
                   class="language__img"
                 />
               </figure>
-              <span class="language__name">HTML</span>
+              <span class="language__name">Nuxt</span>
             </div>
             <div class="language">
               <figure class="language__img--wrapper">
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
+                  src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png"
                   alt=""
                   class="language__img"
                 />
               </figure>
-              <span class="language__name">HTML</span>
+              <span class="language__name">React</span>
             </div>
             <div class="language">
               <figure class="language__img--wrapper">
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
+                  src="https://mobx.js.org/img/mobx.png"
                   alt=""
                   class="language__img"
                 />
               </figure>
-              <span class="language__name">HTML</span>
+              <span class="language__name">MobX</span>
             </div>
           </div>
         </div>
@@ -271,5 +271,41 @@
         </div>
       </div>
     </section>
+    <footer>
+      <div class="row footer__row">
+        <a href="#" class="footer__anchor">
+          <figure class="footer__logo">
+          <img src="./assets/logo.svg" class="footer__logo--img" alt="">
+        </figure>
+        <span class="footer__logo--popper">
+          Top
+          <i class="fas fa-arrow-up"></i>
+        </span>
+        </a>
+        <div class="footer__social--list">
+          <a href="https://google.com" class="
+          footer__social--link
+          link__hover-effect
+          link__hover-effect--white
+          " target="_blank">Github</a>
+          <a href="https://google.com" class="
+          footer__social--link
+          link__hover-effect
+          link__hover-effect--white
+          " target="_blank">LinkedIn</a>
+          <a href="mailto:email@email.com" class="
+          footer__social--link
+          link__hover-effect
+          link__hover-effect--white
+          " target="_blank">Email</a>
+          <a href="./assets/Example Resume.pdf" target="_blank" class="
+          footer__social--link
+          link__hover-effect
+          link__hover-effect--white
+          " target="_blank" >Resume</a>
+        </div>
+        <div class="footer__copyright">Copyright © 2022 Katherine Tran</div>
+      </div>
+    </footer>
   </body>
 </html>
