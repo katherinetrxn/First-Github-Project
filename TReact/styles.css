@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.btn:hover {
+    color: #5011CC;
+    
+}
+
+#landing {
+    padding: 32px;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    background-color: #6415ff;
+    border-radius: 20px;
+    padding: 12px 24px;
+    border: none;
+}
+
+.purple {
+    color: #6415ff;
+}
+
+img {
+    width: 100%;
+}
+/* 
+
+NAVIGATION 
+
+*/
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 40px
+
+}
+
+.nav__links {
+    transition: all 300ms ease;
+}
+
+.nav__link {
+    padding: 0px 20px;
+    font-weight: 500
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+}
+
+.nav__link--signup {
+    color: #fff;
+    font-weight: 600;
+}
+
+.nav__link--login {
+    margin: 0px 12px 0px 48px;
+}
+
+.logo {
+    max-width: 40px;
+}
+
+.logo__img {
+    width: 100%;
+}
+
+.logo__name {
+    margin: 0px 24px;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.container {
+    margin: 150;
+}
+/* 
+
+HEADER 
+
+*/
+
+.header__content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__img {
+    width: 60%;
+}
+
