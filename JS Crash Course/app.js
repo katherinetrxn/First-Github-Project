@@ -1,12 +1,22 @@
 let grades = ['A+', 'A', 'FAIL']
 
-let newGrades = grades.filter((element) => {
+let goodGrades = []
+
+for (let i = 0; i < grades.length; ++i) {
+    if (grades[i] !== 'FAIL')
+    goodGrades.push(grades[i]);
+}
+
+console.log(goodGrades)
+
+let dollars = [1, 5, 10, 3]
+
+let cents = dollars.map((element) => {
     console.log(element)
-    if (element === 'FAIL')
-        return false;
-    else if (element === 'A+', 'A')
-        return true;
+    return element * 100
 })
 
-let neGrades = grades.filter(element => element !== 'FAIL')
-console.log(neGrades)
+let cent = dollars.map((element) => element * 100)
+
+console.log(cent)
+
